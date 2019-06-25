@@ -1,0 +1,15 @@
+
+  "name": "resttest",
+  "version": "1.0.0",
+  "description": "postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-prod": "newman run tests/RestTest.postman_collection.json"
+  },
+  "author": "Lisa",
+  "dependencies": {
+    "newman": "^4.5.1"
+  }
+}
