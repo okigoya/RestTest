@@ -14,7 +14,6 @@
 						"id": "82325bc7-b888-49f0-8946-8465f674dc07",
 						"exec": [
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
-							"tests[\"Body matches string\"] = responseBody.has(\"soya\");",
 							"tests[\"Content-Type is present\"] = responseHeaders.hasOwnProperty(\"Content-Type\");",
 							""
 						],
